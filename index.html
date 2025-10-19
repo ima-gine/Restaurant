@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Right Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo"><i class="fas fa-utensils"></i>De Right</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Welcome to De Right</h1>
+            <p>Experience the finest culinary journey with our exquisite dishes crafted from locally sourced ingredients</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Tradition & Excellence Since 1995</h3>
+                    <p>De Right was founded with a simple mission: to create unforgettable dining experiences through exceptional cuisine, warm hospitality, and a welcoming atmosphere.</p>
+                    <p>Our chefs combine traditional recipes with modern techniques, using only the freshest locally sourced ingredients to craft dishes that delight the senses.</p>
+                    <p>Whether you're joining us for a romantic dinner, family celebration, or business meeting, our team is dedicated to making your experience truly special.</p>
+                    <a href="#contact" class="btn">Make a Reservation</a>
+                </div>
+                <div class="about-image">
+                    <img src="premium_photo-1661883237884-263e8de8869b.jpg" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Specialties</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="photo-1672056777346-ec237198f34b.jpg" alt="Grilled Salmon">
+                    <div class="menu-item-content">
+                        <h3>Grilled Atlantic Salmon <span class="price">$28</span></h3>
+                        <p>Fresh salmon fillet with lemon butter sauce, served with seasonal vegetables and roasted potatoes.</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="premium_photo-1694850980331-fd0dd7f6617b.jpg" alt="Truffle Pasta">
+                    <div class="menu-item-content">
+                        <h3>Truffle Mushroom Pasta <span class="price">$24</span></h3>
+                        <p>Handmade fettuccine with wild mushrooms, black truffle, and parmesan cream sauce.</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="Filet-Mignon-720x1080.jpg" alt="Beef Tenderloin">
+                    <div class="menu-item-content">
+                        <h3>Beef Tenderloin <span class="price">$36</span></h3>
+                        <p>Premium cut of beef with red wine reduction, garlic mashed potatoes, and grilled asparagus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="photo-1702705487239-10a1ca715454.jpg" alt="Dish 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="photo-1689997065743-7585a0a9e2fa.jpg" alt="Dish 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="premium_photo-1670740967011-86730910a2e5.jpg" alt="Dish 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="photo-1680405356193-85ed2faf93ba.jpg" alt="Dish 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>No 31, Evergreen Str., Lagos, <br>Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 812 449 3781</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>nuel15420@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Friday: 11am - 10pm<br>Saturday - Sunday: 10am - 11pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="reservation-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Reservation Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Make Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>De Right</h3>
+                    <p>Experience fine dining at its best. Our restaurant offers an unforgettable culinary journey with exceptional service and ambiance.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <ul class="footer-links">
+                        <li>Monday - Friday: 11am - 10pm</li>
+                        <li>Saturday - Sunday: 10am - 11pm</li>
+                        <li>Happy Hour: 4pm - 6pm Daily</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; De Right Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="devSignature" title="Developer Info">AE</div>
+
+    <div id="devDetails">
+        <button id="closeDetails">&times;</button>
+        <h3>Akinyemi Emmanuel</h3> 
+        <p><strong>Frontend Developer</strong></p>
+        <a href="nuel15420@gmal.com">nuel15420@gmal.com</a>
+        <a href="tel:+234 805 816 7801">+234 805 816 7801</a> 
+        <a href="https://linkedin.com/in/emmanuel-akinyemi-5a3155389" target="_blank">LinkedIn Profile</a> <!-- Change to your LinkedIn -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
